@@ -1,0 +1,16 @@
+package ch03;
+
+public class Student {
+	
+	public int studentID;
+	public String StudentName;
+	public String address;
+	
+	public void setStudentName(String name) {
+		
+		StudentName = name;
+	}
+	public void showStudentInfo() {
+		System.out.println(studentID + "학번의 이름은" +StudentName+"이고, 주소는"+address+"입니다.");
+	}
+}

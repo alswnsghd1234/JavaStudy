@@ -1,0 +1,15 @@
+package Test;
+
+	public class Info {
+		
+		int orderId;
+		long phoneNum;
+		String address;
+		int date;
+		int time;
+		int price;
+		int menuNum;
+	
+		public String showInfo() {
+			return "주문 접수 번호 :" + orderId + ""}
+}

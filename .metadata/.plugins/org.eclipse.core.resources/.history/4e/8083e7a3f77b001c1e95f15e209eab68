@@ -1,0 +1,15 @@
+package ch03;
+
+public class StudentTest {
+
+	public static void main(String[] args) {
+		
+		Student studentLee = new Student();
+		
+		studentLee.studentID = 12345;
+		studentLee.setStudentName("Lee");
+		studentLee.address = " 경기도 용인";
+		
+		studentLee.showStudentInfo();
+	}
+}

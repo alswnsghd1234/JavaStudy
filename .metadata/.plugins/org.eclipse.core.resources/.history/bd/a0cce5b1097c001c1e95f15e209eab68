@@ -1,0 +1,28 @@
+package Test;
+
+	public class Info {
+		
+		public int orderId;
+		public long phoneNum;
+		public String address;
+		public int date;
+		public int time;
+		public int price;
+		public int menuNum;
+		
+		public Info() {}
+		public Info(int orderId, long phoneNum, String address, int date, int time, int price, int menuNum) {
+			
+			this.orderId = 202023131;
+			this.phoneNum = 01023233323;
+			this.address = "서울시 강남구 역삼동";
+			this.date = 2020323;
+			this.time = 130234;
+			this.price = 35000;
+			this.menuNum = 0003;
+			}
+			
+		public String showInfo() {
+			
+			return "주문 접수 번호 :" + orderId + "주문 핸드폰 번호 :" + phoneNum +"주문 집 주소 :"+address +"주문 날짜 :"+date +"주문 시간 :"+time +"주문 가격 :"+price +"주문 번호 :"+menuNum;}
+}
