@@ -1,7 +1,5 @@
 package ch10;
 
-import java.util.Iterator;
-
 public class ConstantTest {
 	
 	public static void main(String[] args) {

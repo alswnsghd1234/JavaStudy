@@ -10,7 +10,7 @@ public class Student {
 		this.money = money;
 	}
 	
-	public void tackBus(Bus bus) {
+	public void takeBus(Bus bus) {
 		bus.take(1000);
 		this.money -= 1000;
 	}
