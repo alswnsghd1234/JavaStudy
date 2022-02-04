@@ -1,8 +1,0 @@
-package ch10;
-
-public class Human {
-
-	String PersonName;
-	int changedMoney;
-	
-}
