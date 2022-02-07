@@ -9,16 +9,16 @@ public class Person {
 	{
 		this("no name",1);
 	}
-	
-	public Person(String name, int age) {
+	public Person(String name,int age) {
 		
 		this.name = name;
 		this.age = age;
 		
 	}
-	public void showPerson()
-	{
-		System.out.println(name +"," +age);
+	public void showPerson() {
+		
+		System.out.println(name+","+age);
+		
 	}
 	
 	public Person getPerson() {
@@ -32,7 +32,8 @@ public class Person {
 		
 		System.out.println(person);
 		
-		Person person2 = person.getPerson();
+		Person person2 = person.getPerson()
+;
 		System.out.println(person2);
-	}
+		}
 }

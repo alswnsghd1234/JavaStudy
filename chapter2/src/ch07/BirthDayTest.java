@@ -4,12 +4,13 @@ public class BirthDayTest {
 
 	public static void main(String[] args) {
 		
-		BirthDay date = new BirthDay();
+		Birthday date = new Birthday();
 		
-		date.setYear(2022);
+		date.setYear(2019);
 		date.setMonth(12);
 		date.setDay(30);
 		
 		date.showDate();
 	}
+
 }

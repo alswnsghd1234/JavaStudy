@@ -1,19 +1,16 @@
 package ch02;
 
-public class VipCustomer extends Customer{
-	
+public class VIPCustomer extends Customer{
 
-	double salesRatio;
-	private String agentID;
+
+	String agentID;
+	double saleRatio;
 	
-	public VipCustomer() {
+	public VIPCustomer() {
 		
 		bonusRatio = 0.05;
 		salesRatio = 0.1;
-		customerGrade = "VIP";
+		customerGrade  ="VIP";
 	}
 	
-	public String getAgentID() {
-		return agentID;
-	}
 }

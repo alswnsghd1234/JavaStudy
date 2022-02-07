@@ -2,19 +2,21 @@ package ch10;
 
 public class Subway {
 
-	int subwayNumber;
+	int lineNumber;
 	int passengerCount;
 	int money;
 	
-	public Subway(int subwayNumber) {
-		this.subwayNumber = subwayNumber;
-		}
+	public Subway(int lineNumber) {
+		this.lineNumber = lineNumber;
+		
+	}
+	
 	public void take(int money) {
 		this.money += money;
 		passengerCount++;
 	}
-	public void showSubwayInfo() {
-		System.out.println(subwayNumber +"번의 승객 수는"+passengerCount+"이고, 총 요금은"+money+"원 입니다.");
+	public void showBusInfo() {
+		
+		System.out.println(lineNumber+"번의 승객 수는"+ passengerCount+"명 이고, 수입은"+ money+"입니다.");
 	}
-	
 }
