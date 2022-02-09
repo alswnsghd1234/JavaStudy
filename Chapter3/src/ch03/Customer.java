@@ -1,4 +1,4 @@
-package ch02;
+package ch03;
 
 public class Customer {
 
@@ -12,7 +12,18 @@ public class Customer {
 	double salesRatio;
 	
 	
-	public Customer() {
+//	public Customer() 
+//	{
+//		customerGrade = "SILVER";
+//		bonusRatio = 0.01;
+//		
+//		System.out.println("Customer() call");
+//	}
+	
+	public Customer(int customerID, String customerName) {
+		this.customerID = customerID;
+		this.customerName = customerName;
+		
 		customerGrade = "SILVER";
 		bonusRatio = 0.01;
 	}

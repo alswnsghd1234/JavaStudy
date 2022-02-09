@@ -1,13 +1,14 @@
-package ch02;
+package ch03;
 
 public class VIPCustomer extends Customer{
 
 
 	private String agentID;
-	double salesRatio;
+	double saleRatio;
 	
 	public VIPCustomer() {
 		
+		super(0,"no");
 		bonusRatio = 0.05;
 		salesRatio = 0.1;
 		customerGrade  ="VIP";

@@ -4,6 +4,14 @@
     <fullyQualifiedTypeName name="ch16.Book"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.Math"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.awt.peer.LightweightPeer"/>
+    <fullyQualifiedTypeName name="ch06.Subject"/>
+    <fullyQualifiedTypeName name="javax.security.auth.SubjectDomainCombiner"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="ch06.Student"/>
+    <fullyQualifiedTypeName name="ch07.Birthday"/>
+    <fullyQualifiedTypeName name="java.io.Console"/>
+    <fullyQualifiedTypeName name="ch08.MakeReport"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
 </qualifiedTypeNameHistroy>
