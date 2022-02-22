@@ -23,10 +23,12 @@ public class Run {
 		
 //		E_Comparison e = new E_Comparison();
 //		e.method1();
-		F_Logical f = new F_Logical();
-		f.method1();
-		f.method2();
-		f.method3();
+//		F_Logical f = new F_Logical();
+//		f.method1();
+//		f.method2();
+//		f.method3();
+		HomeWork h = new HomeWork();
+		h.method();
 			
 		}
 	}
