@@ -7,11 +7,16 @@ public class run {
 
 	public static void main(String[] args) {
 		
-//		A_For a = new A_For();
+		A_For a = new A_For();
 //		a.method1();
-		Test t = new Test();
-		t.Problem2();
-		
+//		Test t = new Test();
+//		t.Problem2();
+//		a.method2();
+//		a.method6();
+//		a.method7();
+//		a.method8();
+		a.method9();
 	}
+	
 
 }
