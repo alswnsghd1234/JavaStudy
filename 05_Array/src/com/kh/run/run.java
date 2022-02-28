@@ -3,6 +3,7 @@ package com.kh.run;
 import com.kh.array.A_Array;
 import com.kh.array.ArrayTest;
 import com.kh.array.B_ArrayCopy;
+import com.kh.array.C_DimentionArray;
 import com.kh.array.HomeWork;
 
 public class run {
@@ -27,7 +28,13 @@ public class run {
 //		b.method5();
 //		b.method6();
 		HomeWork h = new HomeWork();
-		h.problem1();
+//		h.problem1();
+//		h.problem2();
+//		h.problem3();
+		
+		C_DimentionArray c = new C_DimentionArray();
+//		c.method2();
+//		c.method3();
 	}
 
 }

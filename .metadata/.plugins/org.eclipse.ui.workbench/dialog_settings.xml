@@ -45,6 +45,7 @@
 		<item key="WizardZipFileResourceExportPage1.STORE_CREATE_STRUCTURE_ID" value="true"/>
 		<item key="WizardZipFileResourceExportPage1.STORE_COMPRESS_CONTENTS_ID" value="true"/>
 		<list key="WizardZipFileResourceExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="C:\Users\min\OneDrive\바탕 화면\민준홍_Object_숙제.zip"/>
 			<item value="C:\Users\min\OneDrive\바탕 화면\민준홍_while문_숙제.zip"/>
 		</list>
 	</section>

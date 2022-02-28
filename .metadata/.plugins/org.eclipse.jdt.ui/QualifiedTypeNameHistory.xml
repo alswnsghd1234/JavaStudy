@@ -28,7 +28,10 @@
 <fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="com.kh.array.ArrayTest"/>
 <fullyQualifiedTypeName name="com.kh.array.B_ArrayCopy"/>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="com.kh.array.HomeWork"/>
 <fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="com.kh.array.C_DimentionArray"/>
+<fullyQualifiedTypeName name="com.kh.chap02.encapsulation.model.vo.Student"/>
+<fullyQualifiedTypeName name="com.kh.chap02.encapsulation.model.vo.Testclass"/>
 </qualifiedTypeNameHistroy>
