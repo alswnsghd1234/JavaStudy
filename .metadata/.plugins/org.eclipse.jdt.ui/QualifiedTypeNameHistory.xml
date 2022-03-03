@@ -41,4 +41,8 @@
 <fullyQualifiedTypeName name="com.kh.chap03.feild.FieldTest1"/>
 <fullyQualifiedTypeName name="com.kh.chap03.feild.FieldTest2"/>
 <fullyQualifiedTypeName name="com.kh.chap03.feild.FieldTest3"/>
+<fullyQualifiedTypeName name="com.kh.chap05.controller.MethodTest2"/>
+<fullyQualifiedTypeName name="com.kh.chap01_oneVsmany.model.vo.Book"/>
+<fullyQualifiedTypeName name="com.kh.chap01_beforeVSafter.before.model.vo.Desktop"/>
+<fullyQualifiedTypeName name="com.kh.chap01_beforeVSafter.after.model.vo.Desktop"/>
 </qualifiedTypeNameHistroy>
