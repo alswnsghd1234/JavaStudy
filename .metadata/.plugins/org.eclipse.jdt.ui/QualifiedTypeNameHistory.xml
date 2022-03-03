@@ -34,4 +34,11 @@
 <fullyQualifiedTypeName name="com.kh.array.C_DimentionArray"/>
 <fullyQualifiedTypeName name="com.kh.chap02.encapsulation.model.vo.Student"/>
 <fullyQualifiedTypeName name="com.kh.chap02.encapsulation.model.vo.Testclass"/>
+<fullyQualifiedTypeName name="com.kh.chap02.encapsulation.model.vo.Testclass2"/>
+<fullyQualifiedTypeName name="com.kh.chap02.encapsulation.run.Testrun222"/>
+<fullyQualifiedTypeName name="com.kh.chap02.encapsulation.model.vo.Testclass222"/>
+<fullyQualifiedTypeName name="javax.swing.text.FieldView"/>
+<fullyQualifiedTypeName name="com.kh.chap03.feild.FieldTest1"/>
+<fullyQualifiedTypeName name="com.kh.chap03.feild.FieldTest2"/>
+<fullyQualifiedTypeName name="com.kh.chap03.feild.FieldTest3"/>
 </qualifiedTypeNameHistroy>

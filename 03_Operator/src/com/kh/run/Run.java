@@ -10,9 +10,9 @@ public class Run {
 ////				a.method1();
 //				a.methodCandy();
 				
-//				B_InDecrease b = new B_InDecrease();
-//				b.method3();
-//				b.method4();
+				B_InDecrease b = new B_InDecrease();
+				b.method3();
+				b.method4();
 //				
 //				C_Compound c = new C_Compound();
 //				
@@ -25,10 +25,10 @@ public class Run {
 //		e.method1();
 //		F_Logical f = new F_Logical();
 //		f.method1();
-//		f.method2();
+////		f.method2();
 //		f.method3();
-		HomeWork h = new HomeWork();
-		h.method();
+//		HomeWork h = new HomeWork();
+//		h.method();
 			
 		}
 	}
