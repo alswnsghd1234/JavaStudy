@@ -10,10 +10,10 @@ package com.kh.chap01_beforeVSafter.after.model.vo;
 
 public class Product { // 부모클래스 // 조상클래스 //super 클래스
 
-	public String brand;
-	public String pCode;
-	public String pName;
-	public int price;
+	private String brand;
+	private String pCode;
+	private String pName;
+	private int price;
 	
 	public Product() {
 		
@@ -31,7 +31,7 @@ public class Product { // 부모클래스 // 조상클래스 //super 클래스
 		return brand;
 	}
 
-	public void setBrand(String brand) {
+	protected void setBrand(String brand) {
 		this.brand = brand;
 	}
 
@@ -39,7 +39,7 @@ public class Product { // 부모클래스 // 조상클래스 //super 클래스
 		return pCode;
 	}
 
-	public void setpCode(String pCode) {
+	protected void setpCode(String pCode) {
 		this.pCode = pCode;
 	}
 
@@ -47,7 +47,7 @@ public class Product { // 부모클래스 // 조상클래스 //super 클래스
 		return pName;
 	}
 
-	public void setpName(String pName) {
+	protected void setpName(String pName) {
 		this.pName = pName;
 	}
 
@@ -55,8 +55,12 @@ public class Product { // 부모클래스 // 조상클래스 //super 클래스
 		return price;
 	}
 
-	public void setPrice(int price) {
+	protected void setPrice(int price) {
 		this.price = price;
+	}
+
+	public String info() {
+		return brand+pCode+pName+price;
 	}
 	
 	

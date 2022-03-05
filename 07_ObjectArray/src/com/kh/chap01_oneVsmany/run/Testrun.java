@@ -13,7 +13,9 @@ public class Testrun {
 		Scanner sc = new Scanner(System.in);
 		
 		for(int i=0;i<arr.length;i++) {
+			System.out.println("이름 입력 :");
 			String name = sc.nextLine();
+			System.out.println("정수 입력 :");
 			int num = sc.nextInt();
 			sc.nextLine();
 			arr[i] = new Student(name,num);
@@ -21,7 +23,7 @@ public class Testrun {
 		
 		
 		for(int i=0;i<arr.length;i++) {
-		arr[i].Info();
+		System.out.println(arr[i].Info());
 		}
 	}
 

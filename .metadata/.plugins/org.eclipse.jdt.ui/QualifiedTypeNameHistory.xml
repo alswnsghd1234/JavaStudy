@@ -30,7 +30,6 @@
 <fullyQualifiedTypeName name="com.kh.array.B_ArrayCopy"/>
 <fullyQualifiedTypeName name="com.kh.array.HomeWork"/>
 <fullyQualifiedTypeName name="java.util.Arrays"/>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="com.kh.array.C_DimentionArray"/>
 <fullyQualifiedTypeName name="com.kh.chap02.encapsulation.model.vo.Student"/>
 <fullyQualifiedTypeName name="com.kh.chap02.encapsulation.model.vo.Testclass"/>
@@ -44,5 +43,20 @@
 <fullyQualifiedTypeName name="com.kh.chap05.controller.MethodTest2"/>
 <fullyQualifiedTypeName name="com.kh.chap01_oneVsmany.model.vo.Book"/>
 <fullyQualifiedTypeName name="com.kh.chap01_beforeVSafter.before.model.vo.Desktop"/>
+<fullyQualifiedTypeName name="com.kh.chap01_beforeVSafter.after.tvo.Iphone"/>
+<fullyQualifiedTypeName name="com.kh.chap01_beforeVSafter.after.tvo.Galaxy"/>
+<fullyQualifiedTypeName name="com.kh.chap01_beforeVSafter.after.tvo.Myphone"/>
+<fullyQualifiedTypeName name="com.kh.chap01_beforeVSafter.after.model.vo.Product"/>
+<fullyQualifiedTypeName name="com.kh.chap01_beforeVSafter.after.model.vo.SmartPhone"/>
 <fullyQualifiedTypeName name="com.kh.chap01_beforeVSafter.after.model.vo.Desktop"/>
+<fullyQualifiedTypeName name="com.kh.chap01_beforeVSafter.after.model.vo.Tv"/>
+<fullyQualifiedTypeName name="com.kh.chap03_override.model.vo.LunchMenu"/>
+<fullyQualifiedTypeName name="com.kh.test.PlayActor"/>
+<fullyQualifiedTypeName name="com.kh.test.DramaActor"/>
+<fullyQualifiedTypeName name="com.kh.test.MovieActor"/>
+<fullyQualifiedTypeName name="com.kh.chap01_poly.part01.model.vo.Child1"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="com.kh.practice.student.controller.StudentController"/>
+<fullyQualifiedTypeName name="com.kh.practice.student.model.vo.Student"/>
+<fullyQualifiedTypeName name="com.kh.practice.view.StudentMenu"/>
 </qualifiedTypeNameHistroy>
