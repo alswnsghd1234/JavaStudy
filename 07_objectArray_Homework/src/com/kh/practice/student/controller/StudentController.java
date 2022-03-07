@@ -5,7 +5,7 @@ import com.kh.practice.student.model.vo.Student;
 public class StudentController extends Student{
 
 	private Student[] sArr = new Student[5];
-	public int CUT_LINE = 60;
+	public static final int CUT_LINE = 60;
 	
 	
 	
@@ -17,6 +17,7 @@ public class StudentController extends Student{
 		sArr[4] = new Student("È«±æµ¿","ÀÚ¹Ù",20);
 		
 	}
+	
 	public Student[] printStudent() {
 		return sArr;
 		}
@@ -32,8 +33,8 @@ public class StudentController extends Student{
 	
 	public double[] avgScore() {
 		double[] d = new double[2];
-		d[0] = this.sumScore();
-		d[1] = this.sumScore()/printStudent().length;
+		d[0] = sumScore();
+		d[1] = sumScore()/printStudent().length;
 		return d;
 	}
 	

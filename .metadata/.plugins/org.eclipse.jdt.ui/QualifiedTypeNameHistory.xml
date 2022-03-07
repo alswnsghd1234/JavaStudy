@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="ch09.Person"/>
-<fullyQualifiedTypeName name="ch16.Book"/>
 <fullyQualifiedTypeName name="java.lang.Math"/>
 <fullyQualifiedTypeName name="java.awt.peer.LightweightPeer"/>
 <fullyQualifiedTypeName name="ch06.Subject"/>
@@ -59,4 +57,7 @@
 <fullyQualifiedTypeName name="com.kh.practice.student.controller.StudentController"/>
 <fullyQualifiedTypeName name="com.kh.practice.student.model.vo.Student"/>
 <fullyQualifiedTypeName name="com.kh.practice.view.StudentMenu"/>
+<fullyQualifiedTypeName name="com.kh.hw.member.model.vo.Member"/>
+<fullyQualifiedTypeName name="com.kh.hw.member.controller.MemberController"/>
+<fullyQualifiedTypeName name="com.kh.hw.member.view.MemberMenu"/>
 </qualifiedTypeNameHistroy>
