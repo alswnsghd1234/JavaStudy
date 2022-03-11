@@ -1,2 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<typeInfoHistroy/>
+<typeInfoHistroy>
+<typeInfo handle="=09_polymorihism/C:\/Program Files\/Amazon Corretto\/jdk1.8.0_322\/jre\/lib\/rt.jar=/javadoc_location=/https:\/\/docs.oracle.com\/javase\/8\/docs\/api\/=/&lt;java.lang(Object.class[Object" modifiers="33" timestamp="1642086346000"/>
+<typeInfo handle="=09_polymorihism/src&lt;com.kh.interface1.model.vo{Student.java[Student" modifiers="513" timestamp="1646722205134"/>
+</typeInfoHistroy>

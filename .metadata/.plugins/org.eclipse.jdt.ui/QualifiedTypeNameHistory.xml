@@ -1,19 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.lang.Math"/>
-<fullyQualifiedTypeName name="java.awt.peer.LightweightPeer"/>
-<fullyQualifiedTypeName name="ch06.Subject"/>
-<fullyQualifiedTypeName name="javax.security.auth.SubjectDomainCombiner"/>
-<fullyQualifiedTypeName name="java.lang.String"/>
-<fullyQualifiedTypeName name="ch06.Student"/>
-<fullyQualifiedTypeName name="ch07.Birthday"/>
-<fullyQualifiedTypeName name="java.io.Console"/>
-<fullyQualifiedTypeName name="ch08.MakeReport"/>
-<fullyQualifiedTypeName name="java.lang.StringBuffer"/>
-<fullyQualifiedTypeName name="ch04.Student"/>
-<fullyQualifiedTypeName name="com.kh.third.MethodTest"/>
-<fullyQualifiedTypeName name="com.kh.variable.A_Variable"/>
-<fullyQualifiedTypeName name="com.kh.operator.A_Arithmetic"/>
 <fullyQualifiedTypeName name="com.kh.operator.B_InDecrease"/>
 <fullyQualifiedTypeName name="com.kh.operator.C_Compound"/>
 <fullyQualifiedTypeName name="com.kh.operator.D_LogicalNegation"/>
@@ -23,7 +9,6 @@
 <fullyQualifiedTypeName name="com.kh.chap03.branch.Test"/>
 <fullyQualifiedTypeName name="com.kh.chap03.branch.B_Continue"/>
 <fullyQualifiedTypeName name="com.kh.array.A_Array"/>
-<fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="com.kh.array.ArrayTest"/>
 <fullyQualifiedTypeName name="com.kh.array.B_ArrayCopy"/>
 <fullyQualifiedTypeName name="com.kh.array.HomeWork"/>
@@ -53,11 +38,26 @@
 <fullyQualifiedTypeName name="com.kh.test.DramaActor"/>
 <fullyQualifiedTypeName name="com.kh.test.MovieActor"/>
 <fullyQualifiedTypeName name="com.kh.chap01_poly.part01.model.vo.Child1"/>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="com.kh.practice.student.controller.StudentController"/>
 <fullyQualifiedTypeName name="com.kh.practice.student.model.vo.Student"/>
 <fullyQualifiedTypeName name="com.kh.practice.view.StudentMenu"/>
 <fullyQualifiedTypeName name="com.kh.hw.member.model.vo.Member"/>
 <fullyQualifiedTypeName name="com.kh.hw.member.controller.MemberController"/>
 <fullyQualifiedTypeName name="com.kh.hw.member.view.MemberMenu"/>
+<fullyQualifiedTypeName name="com.kh.interface1.model.vo.MiddleSchoolStudent"/>
+<fullyQualifiedTypeName name="com.kh.interface1.model.vo.HighSchoolStudent"/>
+<fullyQualifiedTypeName name="com.kh.practice.chap02_abstrct.model.vo.Phone"/>
+<fullyQualifiedTypeName name="com.kh.practice.chap02_abstrct.model.vo.SmartPhone"/>
+<fullyQualifiedTypeName name="com.kh.practice.chap02_abstrct.controller.PhoneController"/>
+<fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+<fullyQualifiedTypeName name="java.lang.StringBuffer"/>
+<fullyQualifiedTypeName name="java.lang.reflect.Array"/>
+<fullyQualifiedTypeName name="com.kh.chap02_string.controller.B_StringMethod"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="com.kh.exception.controller.A_UncheckedException"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="java.io.BufferedReader"/>
+<fullyQualifiedTypeName name="java.io.InputStreamReader"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="com.kh.chap02_byte.model.duo.FileByteDao"/>
 </qualifiedTypeNameHistroy>

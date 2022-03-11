@@ -173,24 +173,47 @@ public class MemberMenu extends MemberController {
 	}
 	public void updatePassword() {
 	
-		System.out.println("아이디와 비번 입력하세요");
-		String str = sc.next();
-		int num = sc.nextInt();
-		if(!(mc.searchName(str)==null)) {
-			System.out.println("찾으신 회원 조회 결과입니다.");
-			System.out.println(mc.searchName(str));
+		System.out.println("id를 입력하시오");
+		String id = sc.nextLine();
+		System.out.println("password를 입력하시오");
+		String password = sc.nextLine();
+		if(mc.updatePassword(id,password)) {
+			System.out.println("수정이 성공적으로 되었습니다.");
+			MainMenu();
 		}
 		else {
-			System.out.println("검색 결과가 없습니다.");
+			System.out.println("존재하지 않는 아이디입니다.");
 			MainMenu();
 		}
 	}
 	
 	public void updateName() {
-		
+		System.out.println("id를 입력하시오");
+		String id = sc.nextLine();
+		System.out.println("name를 입력하시오");
+		String name = sc.nextLine();
+		if(mc.updateName(id,name)) {
+			System.out.println("수정이 성공적으로 되었습니다.");
+			MainMenu();
+		}
+		else {
+			System.out.println("존재하지 않는 아이디입니다.");
+			MainMenu();
+		}
 	}
 	public void updateEmail() {
-		
+		System.out.println("id를 입력하시오");
+		String id = sc.nextLine();
+		System.out.println("email를 입력하시오");
+		String email = sc.nextLine();
+		if(mc.updateName(id,email)) {
+			System.out.println("수정이 성공적으로 되었습니다.");
+			MainMenu();
+		}
+		else {
+			System.out.println("존재하지 않는 아이디입니다.");
+			MainMenu();
+		}
 	}
 	public void deleteMember() {
 		
