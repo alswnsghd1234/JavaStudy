@@ -46,7 +46,6 @@ public class FileRun {
 			System.out.println("절대경로 : "+file1.getAbsolutePath());//시작점에서부터 풀경로.
 			
 			} 
-			
 			catch (IOException e) {
 				e.printStackTrace();
 			}

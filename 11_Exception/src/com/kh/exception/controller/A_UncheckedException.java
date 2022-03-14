@@ -18,8 +18,30 @@ public class A_UncheckedException {
 	 * 이러한 RuntimeException과 관련된 예외는 충분히 예측 가능한 상황이기 때문에
 	 * 예외 자체가 발생이 안되게 조건문으로도 처리 가능
 	 * 굳이 예외처리까진 필요없음
+	 *
+	 * RuntimeException 관련 예외
+	 * 
+	 * -조건문으로 해결가능 : 예외 자체가 발생 안되게 개발자가 소스코드로 핸들링 하는것 (예외처리X)
+	 * -예외처리구문으로 해결가능 : 예외가 발생했을 때 어떤 처리할것인지 정의해두는것
+	 * 
+	 * -예측 가능한 상황 : 조건문으로 해결(더 권장) 
+	 * -예측이 불가능한 상황 : 예외처리구문으로 해결
+	 * 
+	 * RuntimeException 계열은 조건문으로 처리할 수 있다면 그 방식을 더 권장한다.
+	 * ->예외처리가 필수가 아님 "UncheckedException" 
+	 * 
+	 * 다중 catch블럭
+	 * -작은 범위에서 큰 범위로 catch해야 하는 이유는 
+	 * -위에서 부모클래스의 exception으로 다 처리해버리면 아래있는 자식 클래스타입엔 기회가 없기 때문 
+	 * -세세하게 오류에 대한 처리를 하고 싶다면 위에서부터 작은 범위로 작성 
+	 * -한개의 catch구문을 실행하면 나머지는 뛰어넘고 try catch구문을 빠져나오게 된다.
 	 * 
 	 * */
+	
+	
+	
+	
+	
 	
 	//ArithmeticException 
 	public void method1() {
@@ -90,22 +112,88 @@ public class A_UncheckedException {
 		
 		System.out.println("나눗셈 결과 : "+(20/num)); //num이 0이면 ArithmeticException발생
 		}
+		catch(ArithmeticException e ) {
+			System.out.println("0으로는 나눌 수 없어요...");
+//			e.printStackTrace();
+			}
 		catch(InputMismatchException e) {
 			System.out.println("정수로 입력해주세요!!!!!제발!!");
-		}catch(ArithmeticException e ) {
-			System.out.println("0으로는 나눌 수 없어요...");
-		}
+//			e.printStackTrace(); 오류 추적
 		
 		System.out.println("프로그램 종료");
 		
+		}
 	}
 	
-
+	public void method3() {
+		
+		//배열활용
+		//ArrayIndexOutOfBoundsException : 배열의 부적절한 인덱스로 접근할 때 발생하는 예외
+		//NegativeArraySizeException : 배열의 크기를 음수로 지정했을때 발생하는 예외
+		
+		//사용자로부터 배열의 크기를 입력받고 배열 만들기
+		//100번 인덱스의 값을 출력하기.
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("배열의 크기를 입력해주세요 (음수X) : ");
+		
+		int size = 0;
+		
+		try {
+		size = sc.nextInt();
+		
+		int[] arr = new int[size];
+		
+		System.out.println(arr[100]);
+		}
+		catch(InputMismatchException e) {
+			System.out.println("정수로 입력해주세요 윤정수아님 ;;");
+		}
+		catch(NegativeArraySizeException e) {
+			System.out.println("배열의 크기는 음수가 될 수 없습니다; ");
+//			e.printStackTrace();
+		}
+		catch(ArrayIndexOutOfBoundsException e) {
+			System.out.println("배열의 크기를 벗어났습니다."+(size-1)+"인덱스까지 접근해주세요");
+		}
+		catch(RuntimeException e) { //다형성이 적용되어서 위에서 다 잡아버리기 때문에 아래에 자식클래스들에겐 기회가 없음.
+			System.out.println("실행할때 오류남");
+			
+			//만약 한번에 예외처리 후에 타입검사를 하고 싶다면 instanceof 연산자를 사용하면 된다.
+//			if(e instanceof InputMismatchException) {
+//				System.out.println("InputMismatchException에 해당하는 구문");
+//			}else if(e instanceof NegativeArraySizeException) {
+//				System.out.println("NegativeArraySizeException에 해당하는 구문");
+//			}
+		}
+		
+		System.out.println("프로그램종료");
+		
+	}
+	
+	
+	//본인이 아는 exception을 try catch문으로 잡아보기.
+	public void method4() {
+		
+		String str=null;
+		
+		try {
+		System.out.println(str.charAt(0));
+		}
+		catch(NullPointerException e) {
+			System.out.println("위에서 다잡아요 ");
+		}
+		catch(Exception e) {
+			System.out.println("널널");
+		}
+		
+		
 	}
 	
 	
 	
 	
 	
-
+	
 }

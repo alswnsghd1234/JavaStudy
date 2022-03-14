@@ -1,4 +1,4 @@
-package com.kh.chap03_wrapper;
+package com.kh.chap03_wrapper.run;
 
 public class WrapperRun {
 
@@ -37,6 +37,8 @@ public class WrapperRun {
 		//a.compareTo(b)  a가 b보다 크면 1반환 b가 더 크면 -1 반환 같으면 0을 반환하는 메소드
 		System.out.println(i1.compareTo(i2)); 
 		
+		System.out.println(System.identityHashCode(i1));
+		
 		//Wrapper 클래스자료형 -> 기본자료형(Unboxing)
 		int num3 =i1; //int형으로 10
 		int num4 =i2; //15
@@ -63,6 +65,7 @@ public class WrapperRun {
 		String strD = String.valueOf(d); //20.5 -> "20.5"
 		
 		System.out.println("strI+strD : 정말 문자열이 되었는가 "+(strI+strD));
+		
 		
 	}
 

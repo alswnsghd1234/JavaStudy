@@ -1,4 +1,4 @@
-package com.kh.exception.controller;
+package com.kh.chap02_string.controller.run;
 
 import java.util.Scanner;
 
@@ -35,6 +35,13 @@ public class Test01 {
 		
 		String[] filter = new String[] {"개나리","신발끈","식빵","십장생","주옥","시베리아","안녕하세요오"};
 		
+		char first = filter[0].charAt(0);
+		
+		String b = filter[0].substring(0,1);
+		
+		
+		String a =first+"*";
+		
 //		chat=chat.replace(filter[0], "***");
 //		chat=chat.replace(filter[1], "***");
 //		chat=chat.replace(filter[3], "***");
@@ -63,5 +70,6 @@ public class Test01 {
 		}
 		return str;
 	}
+	
 	
 }
