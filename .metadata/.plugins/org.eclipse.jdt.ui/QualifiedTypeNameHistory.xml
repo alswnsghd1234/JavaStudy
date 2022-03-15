@@ -1,21 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="com.kh.operator.B_InDecrease"/>
-<fullyQualifiedTypeName name="com.kh.operator.C_Compound"/>
-<fullyQualifiedTypeName name="com.kh.operator.D_LogicalNegation"/>
-<fullyQualifiedTypeName name="com.kh.operator.E_Comparison"/>
-<fullyQualifiedTypeName name="com.kh.operator.F_Logical"/>
-<fullyQualifiedTypeName name="com.kh.chap03.branch.A_Break"/>
-<fullyQualifiedTypeName name="com.kh.chap03.branch.Test"/>
-<fullyQualifiedTypeName name="com.kh.chap03.branch.B_Continue"/>
-<fullyQualifiedTypeName name="com.kh.array.A_Array"/>
-<fullyQualifiedTypeName name="com.kh.array.ArrayTest"/>
-<fullyQualifiedTypeName name="com.kh.array.B_ArrayCopy"/>
-<fullyQualifiedTypeName name="com.kh.array.HomeWork"/>
-<fullyQualifiedTypeName name="java.util.Arrays"/>
-<fullyQualifiedTypeName name="com.kh.array.C_DimentionArray"/>
-<fullyQualifiedTypeName name="com.kh.chap02.encapsulation.model.vo.Student"/>
-<fullyQualifiedTypeName name="com.kh.chap02.encapsulation.model.vo.Testclass"/>
 <fullyQualifiedTypeName name="com.kh.chap02.encapsulation.model.vo.Testclass2"/>
 <fullyQualifiedTypeName name="com.kh.chap02.encapsulation.run.Testrun222"/>
 <fullyQualifiedTypeName name="com.kh.chap02.encapsulation.model.vo.Testclass222"/>
@@ -56,8 +40,24 @@
 <fullyQualifiedTypeName name="java.util.Date"/>
 <fullyQualifiedTypeName name="com.kh.exception.controller.A_UncheckedException"/>
 <fullyQualifiedTypeName name="java.util.Scanner"/>
-<fullyQualifiedTypeName name="java.io.BufferedReader"/>
 <fullyQualifiedTypeName name="java.io.InputStreamReader"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="com.kh.chap02_byte.model.duo.FileByteDao"/>
+<fullyQualifiedTypeName name="java.io.IOException"/>
+<fullyQualifiedTypeName name="com.kh.chap03.model.dao.FileCharDao"/>
+<fullyQualifiedTypeName name="com.kh.cha04_assist_part01_buffered.model.dao.BufferedDao"/>
+<fullyQualifiedTypeName name="java.io.FileReader"/>
+<fullyQualifiedTypeName name="java.io.BufferedReader"/>
+<fullyQualifiedTypeName name="java.io.FileNotFoundException"/>
+<fullyQualifiedTypeName name="java.io.ObjectInputStream"/>
+<fullyQualifiedTypeName name="java.io.FileInputStream"/>
+<fullyQualifiedTypeName name="java.io.BufferedInputStream"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.Collections"/>
+<fullyQualifiedTypeName name="com.kh.chap01_list.part02_mvc.controller.MusicController"/>
+<fullyQualifiedTypeName name="com.kh.chap01_list.part01_arrayList.model.vo.Music"/>
+<fullyQualifiedTypeName name="com.kh.chap01_list.part02_mvc.model.vo.Music"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="com.kh.chap01_list.part03_mvc.controller.MovieController"/>
+<fullyQualifiedTypeName name="com.kh.chap01_list.part03_mvc.model.vo.Movie"/>
 </qualifiedTypeNameHistroy>
