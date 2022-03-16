@@ -25,7 +25,6 @@ public class GenerinRun {
 		 * 컬렉션 생성시 제네릭 설정
 		 * [표현법]
 		 * ArrayList<E> list = new ArrayList<E>();
-
 		 * */
 		
 		ArrayList<Integer> list = new ArrayList<Integer>();
